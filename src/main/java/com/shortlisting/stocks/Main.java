@@ -169,7 +169,7 @@ public class Main {
             Double holdingPercentage = Double.valueOf(record.get(holdingsIndex));
 //            System.out.println(" --------------- % Holdings: " + holdingPercentage);
             if (holdingPercentage >= cutoffHoldingPercentage) {
-                stocksMap.put(record.get(stockNameIndex), holdingPercentage);
+                stocksMap.put(record.get(stockNameIndex).trim(), holdingPercentage);
             }
         }
         return stocksMap;
