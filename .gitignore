@@ -1,3 +1,9 @@
+#IntelliJ files
+.idea/
+
+#Target Folder
+target/
+
 # Compiled class file
 *.class
 
