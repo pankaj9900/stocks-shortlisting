@@ -1,7 +1,12 @@
-#IntelliJ files
+# IntelliJ files
 .idea/
 
-#Target Folder
+# Eclipse Files
+.classpath
+.project
+.settings/
+
+# Target Folder
 target/
 
 # Compiled class file
