@@ -28,3 +28,8 @@ The steps to run this are:
     - The cutoff % value for cumulative holding AFTER averaging it across the holdings. The final average holding below this number will be ignored. 
 1. topNStocks=20
     - The final count of stocks to be displayed. The sorting is in descending order of Count (# of times the stocks as present in the csv) and and then % Holdings (average, if the count > 1).
+
+##### I used [this](https://trendlyne.com/mutual-fund/mf-all "https://trendlyne.com/mutual-fund/mf-all") URL for downloading the MF portfolio. However, you can use any site as long as the  _Stock Name_  and the  _Holding %_  are present in the csv.
+
+#### Possible Enhancements
+1. Calculate weighted average, instead of regular average.
